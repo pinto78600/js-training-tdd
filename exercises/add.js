@@ -7,6 +7,16 @@
  */
 
 // Your code:
+let a = 2
+let b = 2
+
+const add = (a , b) => {
+    return(
+        a + b
+    )
+}
+
+
 
 //* Begin of tests
 const assert = require('assert');

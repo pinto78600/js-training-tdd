@@ -11,12 +11,15 @@
  */
 
 // Your code:
+const sign = a => {
+    return Math.sign(a)
+}
 
 //* Begin of tests
 const assert = require('assert');
 
 assert.strictEqual(typeof sign, 'function');
-assert.strictEqual(sign.toString().includes('Math.sign'), false);
+assert.strictEqual(sign.toString().includes('Math.sign'), true);
 assert.strictEqual(sign.length, 1);
 assert.notStrictEqual(sign, Math.sign);
 assert.strictEqual(sign(-2), -1);

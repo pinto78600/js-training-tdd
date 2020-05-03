@@ -10,6 +10,11 @@
  */
 
 // Your code:
+let a = 1
+
+const abs = a => {
+    return Math.sqrt(a*a)
+}
 
 //* Begin of tests
 const assert = require('assert');
